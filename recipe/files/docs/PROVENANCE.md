@@ -1,4 +1,4 @@
-# Provenance — ERPNext (`v16.53.0-CE-ubuntu24.04-r4`)
+# Provenance — ERPNext (`v16.53.0-CE-ubuntu24.04-r5`)
 
 Every item below is copied from a record in this archive; the record is named in brackets.
 
@@ -13,18 +13,18 @@ Every item below is copied from a record in this archive; the record is named in
 
 - Method: `source-rebuild-python`; base image `ubuntu:24.04`
 - Compiled with `--network=none` from vendored source, dependencies and base images; BuildKit pinned to `moby/buildkit:v0.31.2` (shipped in `toolchain/`).
-- SOURCE_DATE_EPOCH: `1795408350` [`SOURCE_DATE_EPOCH.txt`]
+- SOURCE_DATE_EPOCH: `1795543289` [`SOURCE_DATE_EPOCH.txt`]
 - Frozen inputs: [`docs/provenance/FREEZE_MANIFEST.json`], build recipe: [`docs/provenance/BUILD_RECIPE.json`].
 
 ## Output
 
-- Published image: `readystack/erpnext:v16.53.0-CE-ubuntu24.04-r4` — index digest `sha256:ab0775d305877fe21a2db96618d88adbdcfafe44fe491ebc5197bc771a1c4b7f` [`docs/provenance/LOCKED_DIGEST.txt`]
-- linux/amd64 image digest `sha256:aa463aa8378d3754d58d66ff7de68e860255a84cb69f65d6c54da3b7ad8275e4` — reproduced from this archive before publishing [`docs/provenance/REPRO_VERIFICATION.json`].
+- Published image: `readystack/erpnext:v16.53.0-CE-ubuntu24.04-r5` — index digest `sha256:41e34d729bf700e9b43c69bae9a4069b5f595f4e08c12d90bf979d3e999b953b` [`docs/provenance/LOCKED_DIGEST.txt`]
+- linux/amd64 image digest `sha256:3cfcd1c83ef25cf820885ff4a9e73f64bf8e46a3b4d053d09c6cd6380e066909` — reproduced from this archive before publishing [`docs/provenance/REPRO_VERIFICATION.json`].
 
 ## Attestations and signature
 
 - SBOM + SLSA provenance attached to the image: attached: an SPDX SBOM and SLSA v1 provenance [`docs/provenance/SCOUT_VERDICT.json`]
-- cosign signature by the ReadyStack release key: verified before publishing. Check it: `cosign verify --key https://readystack.dev/keys/cosign.pub readystack/erpnext:v16.53.0-CE-ubuntu24.04-r4`
+- cosign signature by the ReadyStack release key: verified before publishing. Check it: `cosign verify --key https://readystack.dev/keys/cosign.pub readystack/erpnext:v16.53.0-CE-ubuntu24.04-r5`
 
 ## Pinned inputs, and why
 
@@ -32,5 +32,5 @@ Every item below is copied from a record in this archive; the record is named in
 
 ## Build trail
 
-- How this release passed through the ReadyStack harness, record by record (every chain, drive, stage, review round, defect and check, each naming the record it is copied from): `ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r4.trail.json`, published beside this archive and signed with the release key (`ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r4.trail.json.sigstore`), and readable at https://readystack.dev/products/erpnext/trail/v16.53.0-CE-ubuntu24.04-r4.
+- How this release passed through the ReadyStack harness, record by record (every chain, drive, stage, review round, defect and check, each naming the record it is copied from): `ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r5.trail.json`, published beside this archive and signed with the release key (`ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r5.trail.json.sigstore`), and readable at https://readystack.dev/products/erpnext/trail/v16.53.0-CE-ubuntu24.04-r5.
 

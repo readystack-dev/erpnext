@@ -1,7 +1,7 @@
 {
   "schema": "kitforge.build_recipe.v1",
   "slug": "erpnext",
-  "image": "readystack/erpnext:v16.53.0-CE-ubuntu24.04-r4",
+  "image": "readystack/erpnext:v16.53.0-CE-ubuntu24.04-r5",
   "build_method": "source-rebuild-python",
   "source": {
     "repo": "https://github.com/frappe/erpnext",
@@ -9,8 +9,8 @@
     "framework_repo": "https://github.com/frappe/frappe",
     "framework_branch": "v16.53.0",
     "_source_note": "GPL-3.0 ERPNext app (v16.53.0, the newest v16 GA release at the retarget, 2026-11-01) on the MIT Frappe framework v16.53.0. Built via frappe_docker's bench toolchain (bench init --frappe-branch v16.53.0 + bench get-app erpnext v16.53.0 + implicit bench build); the vendor stage checks both clones resolve to the pinned commits. Hand-kit forks frappe_docker's production Containerfile (product-kits/erpnext/build/Dockerfile.vendor -> vendored tarballs -> Dockerfile.offline.pinned hermetic reassembly). ERPNext uses the standard Frappe desk UI (server-rendered assets in sites/assets via nginx) \u2014 NOT a separate Vue SPA like frappecrm.",
-    "source_date_epoch": 1795408350,
-    "source_date_epoch_provenance": "the time release v16.53.0-CE-ubuntu24.04-r4 was cut (2026-11-23T04:32:30Z), by scripts/rerelease-agenda.py: ReadyStack dates an image by when its release was packaged (owner 2026-11-10), recorded here once and used by every rebuild of the release; it builds upstream commit 9cd11b19575b, dated 2026-10-28T20:44:02Z (source.commit_epoch).",
+    "source_date_epoch": 1795543289,
+    "source_date_epoch_provenance": "the time release v16.53.0-CE-ubuntu24.04-r5 was cut (2026-11-24T18:01:29Z), by scripts/rerelease-agenda.py: ReadyStack dates an image by when its release was packaged (owner 2026-11-10), recorded here once and used by every rebuild of the release; it builds upstream commit 9cd11b19575b, dated 2026-10-28T20:44:02Z (source.commit_epoch).",
     "commit": "9cd11b19575bfc34f092a24f6c8b368c4dd69481",
     "python_version": "3.14",
     "python_runtime": {

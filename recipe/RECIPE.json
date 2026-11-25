@@ -1,11 +1,11 @@
 {
  "schema": "readystack.recipe.v1",
  "slug": "erpnext",
- "tag": "v16.53.0-CE-ubuntu24.04-r4",
- "tarball": "ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r4.tar.gz",
- "tarball_sha256": "9025e9d77b7788f78ca105887e749065bf72b611b6650cbb50b46752b272c47f",
- "kit_root": "v16.53.0-CE-ubuntu24.04-r4",
- "generated_at": "2026-11-23T06:20:13Z",
+ "tag": "v16.53.0-CE-ubuntu24.04-r5",
+ "tarball": "ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r5.tar.gz",
+ "tarball_sha256": "5bc0e915118bf9583cfbf847748fdfebb9ab16571b9c323037549968867bfa10",
+ "kit_root": "v16.53.0-CE-ubuntu24.04-r5",
+ "generated_at": "2026-11-25T04:36:25Z",
  "generator": "KitForge release/recipe_publish.py",
  "dockerfile": "Dockerfile.offline.pinned",
  "build_script": "BUILD_OFFLINE.sh",
@@ -52,12 +52,12 @@
    "buildkit_image_digest": "sha256:e0e67ea9c4bb07bdef683e29f70f3b623d1eb9c82274a9ec04e6bb0511449fb0"
   },
   "build_method": "source-rebuild-python",
-  "source_date_epoch": 1795408350,
-  "source_date_epoch_utc": "2026-11-23T04:32:30Z",
+  "source_date_epoch": 1795543289,
+  "source_date_epoch_utc": "2026-11-24T18:01:29Z",
   "target": {
-   "image_manifest_digest": "sha256:aa463aa8378d3754d58d66ff7de68e860255a84cb69f65d6c54da3b7ad8275e4",
-   "config_digest": "sha256:631fafa01c4ddb8bb81fffcbd3c5acc89ec009b2ced5a478620bc4f85589d567",
-   "image": "readystack/erpnext:v16.53.0-CE-ubuntu24.04-r4"
+   "image_manifest_digest": "sha256:3cfcd1c83ef25cf820885ff4a9e73f64bf8e46a3b4d053d09c6cd6380e066909",
+   "config_digest": "sha256:b5d8eacca9e4876a85f6c84ba3bcf0a63d4be5d5ce30e8160c41f3ebe651cb8b",
+   "image": "readystack/erpnext:v16.53.0-CE-ubuntu24.04-r5"
   },
   "checksummed_files": 5759
  },
@@ -79,8 +79,8 @@
   },
   {
    "path": "CHECKSUMS.sha256",
-   "size": 923639,
-   "sha256": "0c1024a34f3f4721bef9a05fc8ad46c763f39dcf0b11f0f3035cbc4c69e10456",
+   "size": 923641,
+   "sha256": "2efe84e4f5896666a4ffe30e9807418d3805d8105b90e1f81996f90c242897a2",
    "lines": 5759,
    "public": "account",
    "stored": "gzip"
@@ -95,21 +95,21 @@
   {
    "path": "Dockerfile",
    "size": 7854,
-   "sha256": "c52a94e70c46ec44e28986f493627d1d9296f2a121f7a706483e932a5cf5426e",
+   "sha256": "873183f17f9190d6a749d7769d9928cea18018fc2ad289995d8440bdef9b3e70",
    "lines": 74,
    "public": "account"
   },
   {
    "path": "Dockerfile.offline",
    "size": 7854,
-   "sha256": "c52a94e70c46ec44e28986f493627d1d9296f2a121f7a706483e932a5cf5426e",
+   "sha256": "873183f17f9190d6a749d7769d9928cea18018fc2ad289995d8440bdef9b3e70",
    "lines": 74,
    "public": "account"
   },
   {
    "path": "Dockerfile.offline.pinned",
    "size": 7854,
-   "sha256": "c52a94e70c46ec44e28986f493627d1d9296f2a121f7a706483e932a5cf5426e",
+   "sha256": "873183f17f9190d6a749d7769d9928cea18018fc2ad289995d8440bdef9b3e70",
    "lines": 74,
    "public": "preview",
    "preview_lines": 24
@@ -123,16 +123,16 @@
   },
   {
    "path": "FILE_MODES.tsv",
-   "size": 663222,
-   "sha256": "085a0e9b2dc66f479a55492f986c52cf4d2600b992f9556efaa53cfb00bfd547",
+   "size": 663224,
+   "sha256": "954911ad3cea8ec10f7cb6c86ee638e882ba671f2bd2f9f18b96f030a27f5de1",
    "lines": 7165,
    "public": "account",
    "stored": "gzip"
   },
   {
    "path": "MANIFEST.txt",
-   "size": 532057,
-   "sha256": "a6682b0f5a0a3e52d86ec6f9e023bdd54f8d547d172233ecb3165d495606932a",
+   "size": 532059,
+   "sha256": "446b845ea1aa9eb980179c53a78c4ecafb545b757f65ccab4d5c735f5d8a7f8f",
    "lines": 5761,
    "public": "account",
    "stored": "gzip"
@@ -140,21 +140,21 @@
   {
    "path": "README.md",
    "size": 3306,
-   "sha256": "fceffebc017567a5a756e0cf28f77c857cecdc9aa9fffea5805d6588f3f3bf5d",
+   "sha256": "cf63ba335081e22ff5bdd9f1a8ad75e674184ce5da50fd403171269e70c1fb1f",
    "lines": 39,
    "public": "account"
   },
   {
    "path": "SOURCE_DATE_EPOCH.txt",
    "size": 11,
-   "sha256": "e1d17a893d64f26f0cb2a18c4020ac6af8ca72fd6c83ec0143dcab87aea0fb85",
+   "sha256": "2bfb2db85bdcc169fce429395041f67e75017c8aa978a6ce319ce9414f3af9f2",
    "lines": 1,
    "public": "full"
   },
   {
    "path": "TARGET_DIGEST.txt",
    "size": 465,
-   "sha256": "983740a4f8470c8c88b34a854fbade2b07966e8d54f8d7e58a4e3e20a314cbce",
+   "sha256": "4ed8be9eeab28cc629526d198e7818d60a6f8270502840170321a5b249226f87",
    "lines": 8,
    "public": "full"
   },
@@ -168,21 +168,21 @@
   {
    "path": "docs/PROVENANCE.md",
    "size": 2636,
-   "sha256": "7029ad150ae5d2bbdd106081ce918e56814f81c6ee1f68bfaef9f6b23c7c92ac",
+   "sha256": "e8898bce992f6bcae7a1cb3a3068f767914a2ab11c2202fa27a1925cdb495618",
    "lines": 36,
    "public": "account"
   },
   {
    "path": "docs/REBUILD.md",
-   "size": 6173,
-   "sha256": "1a28c410474ff9f8a7aa645fa6599ef769dae664ec8e35582c5d957c0f05f67d",
+   "size": 6171,
+   "sha256": "9458bccaf209b73cef128864522ae346c57f009a84ccdb3c656a624137bf6d3c",
    "lines": 62,
    "public": "account"
   },
   {
    "path": "docs/VERIFY.md",
    "size": 2037,
-   "sha256": "c62f7e305ca9634fc4365bc4544e7965846aac7283d4ace98ae227c2736808f0",
+   "sha256": "c1cd7ba3a74c6b399af981afc8e22b23f252754e38811eeefef194cbedd6be95",
    "lines": 34,
    "public": "account"
   },
@@ -196,7 +196,7 @@
   {
    "path": "docs/provenance/BUILD_RECIPE.json",
    "size": 7068,
-   "sha256": "7027f251d1480336de021c0a7d2b2cbce9541fa22c4e32ec9933b65c683b91c9",
+   "sha256": "70ce2543f64b004449b32f2d04587f0273ea3dc2fc2e0e78c0d6f2270745cafa",
    "lines": 44,
    "redactions": [
     {
@@ -204,7 +204,7 @@
      "kind": "internal host"
     }
    ],
-   "kit_sha256": "63922c0bb067fe6bb0b298716950267542c6e76fd87b25ca8a49af734320607c",
+   "kit_sha256": "c13a2b59c77fb0ee225a73618a5da1f34066cbc47a4d859e1b432eb612c6736a",
    "kit_size": 7048,
    "public": "account"
   },
@@ -240,7 +240,7 @@
   {
    "path": "docs/provenance/TOOLCHAIN.lock",
    "size": 2416,
-   "sha256": "7abe0672629565994ea4fec31d3017d772763d25185453b93565f8900ffc0c1a",
+   "sha256": "c74f361d5f7f24926c97a1a9ecf33d2732fd419c642d82766c4447d787fbb3df",
    "lines": 48,
    "public": "account"
   },
@@ -254,7 +254,7 @@
   {
    "path": "rebuild.json",
    "size": 1241,
-   "sha256": "e36e0c3ca8bdac95ecfcaa2376da4eb63a95ce3c33883ab49dc85b9ca8dbb490",
+   "sha256": "0000caf24406fe77d1b2dc8e2ce5037d7d7d46402e9fd91d52a28bcb0a7baad6",
    "lines": 31,
    "public": "account"
   },
@@ -323,7 +323,7 @@
   },
   "docs": {
    "files": 5639,
-   "bytes": 181089904
+   "bytes": 181092760
   },
   "toolchain": {
    "files": 1,
@@ -331,7 +331,7 @@
   },
   "vendored": {
    "files": 82,
-   "bytes": 619981066
+   "bytes": 620084571
   }
  },
  "redacted_files": 1
