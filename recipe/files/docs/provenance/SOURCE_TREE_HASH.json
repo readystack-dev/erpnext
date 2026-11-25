@@ -1,0 +1,9 @@
+{
+  "schema": "kitforge.source_tree_hash.v1",
+  "slug": "erpnext",
+  "repo": "https://github.com/frappe/erpnext",
+  "ref": "v16.53.0",
+  "commit": "9cd11b19575bfc34f092a24f6c8b368c4dd69481",
+  "tree_listing_sha256": "e9e194e2af7ed58c0f42e27a67378f1df9b975c9ba880bc0f3cdd898c7896209",
+  "file_count": 5581
+}

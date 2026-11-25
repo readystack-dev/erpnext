@@ -1,0 +1,8 @@
+image_manifest_digest=sha256:aa463aa8378d3754d58d66ff7de68e860255a84cb69f65d6c54da3b7ad8275e4
+config_digest=sha256:631fafa01c4ddb8bb81fffcbd3c5acc89ec009b2ced5a478620bc4f85589d567
+tag=readystack/erpnext:v16.53.0-CE-ubuntu24.04-r4
+probe_port=8080
+probe_path=/api/method/ping
+probe_timeout=900
+verify_boot=skip
+verify_boot_reason=this image needs db, redis-cache, redis-queue (not part of this archive); boot it with your own services as the admin handbook describes
