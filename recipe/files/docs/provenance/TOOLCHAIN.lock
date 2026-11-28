@@ -1,6 +1,6 @@
 {
   "build_method": "source-rebuild-python",
-  "chain_id": 1238,
+  "chain_id": 1304,
   "dep_bumps": [],
   "expected_residuals": [],
   "images": [
@@ -40,9 +40,9 @@
     "python_version": "3.14",
     "ref": "v16.53.0",
     "repo": "https://github.com/frappe/erpnext",
-    "source_date_epoch": 1795543289,
+    "source_date_epoch": 1795644357,
     "source_date_epoch_basis": "release-cut",
-    "source_date_epoch_provenance": "the time release v16.53.0-CE-ubuntu24.04-r5 was cut (2026-11-24T18:01:29Z), by scripts/rerelease-agenda.py: ReadyStack dates an image by when its release was packaged (owner 2026-11-10), recorded here once and used by every rebuild of the release; it builds upstream commit 9cd11b19575b, dated 2026-10-28T20:44:02Z (source.commit_epoch)."
+    "source_date_epoch_provenance": "the time release v16.53.0-CE-ubuntu24.04-r6 was cut (2026-11-25T22:05:57Z), by scripts/rerelease-agenda.py: ReadyStack dates an image by when its release was packaged (owner 2026-11-10), recorded here once and used by every rebuild of the release; it builds upstream commit 9cd11b19575b, dated 2026-10-28T20:44:02Z (source.commit_epoch)."
   },
   "version": "v16.53.0"
 }

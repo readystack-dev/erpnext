@@ -16,16 +16,16 @@
     "context": ".",
     "dockerfile": "Dockerfile.offline.pinned",
     "mtime_policy": "clamp",
-    "source_date_epoch": 1795543289,
-    "tree_hash": "sha256:0db2adda3c1a39d2bacf3eb0a05778cfae64f9cd8dc1ff1ff346db0bcf4e705d"
+    "source_date_epoch": 1795644357,
+    "tree_hash": "sha256:06586c23ed5b951c41de791c476c33bb6a52317689d2538ac557ff5d359526b0"
   },
   "probe": {
     "skip": "this image needs db, redis-cache, redis-queue (not part of this archive); boot it with your own services as the admin handbook describes"
   },
   "schema": "readystack-rebuild-bundle/v0.1",
   "subject": {
-    "config_digest": "sha256:b5d8eacca9e4876a85f6c84ba3bcf0a63d4be5d5ce30e8160c41f3ebe651cb8b",
-    "image_manifest_digest": "sha256:3cfcd1c83ef25cf820885ff4a9e73f64bf8e46a3b4d053d09c6cd6380e066909",
-    "name": "docker.io/readystack/erpnext:v16.53.0-CE-ubuntu24.04-r5"
+    "config_digest": "sha256:b8d4ca219bf2285eeb43d96d8c21e764eb3bbe3fa8d93d060445508615758131",
+    "image_manifest_digest": "sha256:0fd4fdd89e041ec75003bd6e88429c2e9fca22d1ae14342faa7285472fc12824",
+    "name": "docker.io/readystack/erpnext:v16.53.0-CE-ubuntu24.04-r6"
   }
 }

@@ -61,7 +61,7 @@ ENTRYPOINT ["/usr/local/bin/entrypoint-aio.sh"]
 # the set a generated kit carries (gen_dockerfile.label_lines). Written by scripts/kit_migrations.py;
 # scripts/retarget.py re-renders it with every retarget. Never edit it by hand.
 LABEL org.opencontainers.image.title="ERPNext"
-LABEL org.opencontainers.image.version="v16.53.0-CE-ubuntu24.04-r5"
+LABEL org.opencontainers.image.version="v16.53.0-CE-ubuntu24.04-r6"
 LABEL org.opencontainers.image.licenses="GPL-3.0-only"
 LABEL org.opencontainers.image.source="https://github.com/frappe/erpnext"
 LABEL org.opencontainers.image.vendor="ReadyStack.dev"

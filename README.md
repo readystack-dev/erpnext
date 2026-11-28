@@ -6,13 +6,13 @@
 
 # ERPNext: ReadyStack build kit
 
-The offline build kit for the Docker image `readystack/erpnext:v16.53.0-CE-ubuntu24.04-r5`. It holds what the image is built from (upstream source, base images, toolchain, pinned dependencies) and the documents, so the image can be rebuilt with no network access (`docker build --network=none`).
+The offline build kit for the Docker image `readystack/erpnext:v16.53.0-CE-ubuntu24.04-r6`. It holds what the image is built from (upstream source, base images, toolchain, pinned dependencies) and the documents, so the image can be rebuilt with no network access (`docker build --network=none`).
 
-- Release: [v16.53.0-CE-ubuntu24.04-r5](https://github.com/readystack-dev/erpnext/releases/tag/v16.53.0-CE-ubuntu24.04-r5)
-- Image: [`docker.io/readystack/erpnext:v16.53.0-CE-ubuntu24.04-r5`](https://hub.docker.com/r/readystack/erpnext/tags), manifest digest `sha256:3cfcd1c83ef25cf820885ff4a9e73f64bf8e46a3b4d053d09c6cd6380e066909`
+- Release: [v16.53.0-CE-ubuntu24.04-r6](https://github.com/readystack-dev/erpnext/releases/tag/v16.53.0-CE-ubuntu24.04-r6)
+- Image: [`docker.io/readystack/erpnext:v16.53.0-CE-ubuntu24.04-r6`](https://hub.docker.com/r/readystack/erpnext/tags), manifest digest `sha256:0fd4fdd89e041ec75003bd6e88429c2e9fca22d1ae14342faa7285472fc12824`
 - Product page: https://readystack.dev/products/erpnext
 - Source and build recipe: https://readystack.dev/products/erpnext/recipe
-- Build trail: https://readystack.dev/products/erpnext/trail/v16.53.0-CE-ubuntu24.04-r5
+- Build trail: https://readystack.dev/products/erpnext/trail/v16.53.0-CE-ubuntu24.04-r6
 - Defects: this repository's Issues (defects recorded from 25 November 2026 on) and https://readystack.dev/defects.html?product=erpnext
 
 ## The image
@@ -31,12 +31,12 @@ From the upstream project's own description: https://github.com/frappe/erpnext.
 
 ## This release
 
-- Docker Scout policy grade at release: **A** (94%), graded 2026-11-25 with `docker scout policy` (CLI 1.26.0, docker-default configuration).
+- Docker Scout policy grade at release: **A** (94%), graded 2026-11-27 with `docker scout policy` (CLI 1.26.0, docker-default configuration).
   - Docker Scout counts 162 packages with copyleft licences (GPL, LGPL, MPL), 155 of them operating-system packages (it counts only packages whose licence it can read; the SBOM lists every component).
 - Signed with ReadyStack's release key (fingerprint `04daa92344a52dbc`): https://readystack.dev/keys/cosign.pub.
 - Runs as a non-root user (`frappe`).
 - Attestations on the image: an SPDX SBOM and SLSA provenance v1.
-- Rebuilt from this kit with network egress blocked on 2026-11-25; the rebuilt image digest is the published one.
+- Rebuilt from this kit with network egress blocked on 2026-11-27; the rebuilt image digest is the published one.
 - Base: Ubuntu 24.04.
 
 The current grade, measured again every day, is on https://readystack.dev/products/erpnext.
@@ -45,7 +45,7 @@ ERPNext is distributed under its upstream licence (GPL-3.0-only); the kit contai
 
 ## Download
 
-From the [v16.53.0-CE-ubuntu24.04-r5 release](https://github.com/readystack-dev/erpnext/releases/tag/v16.53.0-CE-ubuntu24.04-r5): `ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r5.tar.gz` (753.9 MB), SHA-256 `5bc0e915118bf9583cfbf847748fdfebb9ab16571b9c323037549968867bfa10`.
+From the [v16.53.0-CE-ubuntu24.04-r6 release](https://github.com/readystack-dev/erpnext/releases/tag/v16.53.0-CE-ubuntu24.04-r6): `ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r6.tar.gz` (755.1 MB), SHA-256 `707056a16be9a188e7921c02aacf53442b358bedb90f159f95371d74023a1d61`.
 
 ```sh
 sha256sum --check --ignore-missing SHA256SUMS
@@ -57,18 +57,18 @@ The rebuild statement is signed with the ReadyStack release key. Check the signa
 
 ```sh
 cosign verify-blob --key https://readystack.dev/keys/cosign.pub \
-  --bundle ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r5.rebuild.json.sigstore ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r5.rebuild.json
+  --bundle ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r6.rebuild.json.sigstore ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r6.rebuild.json
 ```
 
 Unpack with `-p` so file modes are kept, then follow the kit's own README.md and docs/REBUILD.md:
 
 ```sh
-tar -xpzf ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r5.tar.gz
-cd v16.53.0-CE-ubuntu24.04-r5
+tar -xpzf ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r6.tar.gz
+cd v16.53.0-CE-ubuntu24.04-r6
 less README.md docs/REBUILD.md
 ```
 
-The build trail (`ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r5.trail.json`, signed the same way, and its Markdown copy) records how this release was built and checked.
+The build trail (`ReadyStack-erpnext-v16.53.0-CE-ubuntu24.04-r6.trail.json`, signed the same way, and its Markdown copy) records how this release was built and checked.
 
 ## This repository
 
